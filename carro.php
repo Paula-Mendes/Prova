@@ -8,7 +8,7 @@ class Carro
     public $quantPortas = 4;
     public $cor = "Vermelho";
 
-    public function especificar()
+    public function dadosVeiculo()
     {
         echo "Marca: {$this -> marca} <br>";
         echo "Modelo: {$this -> modelo} <br>";
