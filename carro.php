@@ -8,7 +8,7 @@ class Carro
     public $quantPortas = 4;
     public $cor = "Vermelho";
 
-    public function caracteristicas()
+    public function especificar()
     {
         echo "Marca: {$this -> marca} <br>";
         echo "Modelo: {$this -> modelo} <br>";
@@ -34,6 +34,6 @@ class Carro
 }
 
 $carro1 = new Carro();
-$carro1 -> caracteristicas();
+$carro1 -> especificar();
 $carro1 -> andar();
 $carro1 -> fazerBarulho();

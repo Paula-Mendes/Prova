@@ -8,7 +8,7 @@ class Escola
     public $quantProfessores = 10;
     public $endereco = "R. Quarenta e Dois, 1-283 - Campos Filho, Ibirité - MG";
 
-    public function caracteristicas()
+    public function especificar()
     {
         echo "Nome: {$this -> nome} <br>";
         echo "Cursos: {$this -> cursos} <br>";
@@ -33,6 +33,6 @@ class Escola
 }
 
 $escola1 = new Escola();
-    $escola1 -> caracteristicas();
-    $escola1 -> ensinar();
-    $escola1 -> profissionalizar();
+$escola1 -> especificar();
+$escola1 -> ensinar();
+$escola1 -> profissionalizar();
